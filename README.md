@@ -8,6 +8,7 @@ This is the replication code for the paper: Roemer, Tobias (2023): “School Sho
 4. Run the `main_analysis.R` file, which will automatically install all dependencies and call the individual source files that create the main plots. Plots will be saved in the `figures` folder. Should you encounter any difficulties, please email me at: tobias.roemer@nuffield.ox.ac.uk
 
 # Code Files
+```bash
 .
 ├── 00_main_analysis (reproduces figures from main text)
 │   ├── 00_main_figure.R (Figure 2)
@@ -41,6 +42,7 @@ This is the replication code for the paper: Roemer, Tobias (2023): “School Sho
     ├── plot_functions_alt_est.R
     ├── plot_functions_main.R
     └── plot_functions_sun.R
+```
 
 # Dependencies
 The code used in this repo requires the following R packages:

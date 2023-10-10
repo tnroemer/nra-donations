@@ -5,7 +5,7 @@ This is the replication code for the paper: Roemer, Tobias (2023): “School Sho
 1. Download the repo
 2. Open the .RProj
 3. Install `pacman` by running `install.packages("pacman")` if not installed yet. `pacman` is used to load and install all further dependencies
-4. Run the `main_analysis.R` file, which will automatically install all dependencies and call the individual source files that create the main plots. Plots will be saved in the `figures` folder. The map and all supplementary analyses can be reproduced by running `01_maps.R` and `02_supplementary_analysis.R` respectively. Should you encounter any difficulties, please email me at: tobias.roemer@nuffield.ox.ac.uk
+4. Run the `00_main_analysis.R` file, which will automatically install all dependencies and call the individual source files that create the main plots. Plots will be saved in the `figures` folder. The map and all supplementary analyses can be reproduced by running `01_maps.R` and `02_supplementary_analysis.R` respectively. Should you encounter any difficulties, please email me at: tobias.roemer@nuffield.ox.ac.uk
 
 # Code Files
 ```bash

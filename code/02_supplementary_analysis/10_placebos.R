@@ -64,7 +64,8 @@ coefplot(list(m1_data),
   sep = 0.25,
   style = "iplot",
   ref.line = 4,
-  grid.par = list(vert = TRUE, horiz = TRUE)
+  grid.par = list(vert = TRUE, horiz = TRUE),
+  dict = dict
 )
 dev.off()
 
@@ -76,7 +77,8 @@ coefplot(list(m2_data),
   sep = 0.25,
   style = "iplot",
   ref.line = 4,
-  grid.par = list(vert = TRUE, horiz = TRUE)
+  grid.par = list(vert = TRUE, horiz = TRUE),
+  dict = dict
 )
 dev.off()
 
@@ -136,7 +138,8 @@ coefplot(list(m1_data),
   sep = 0.25,
   style = "iplot",
   ref.line = 4,
-  grid.par = list(vert = TRUE, horiz = TRUE)
+  grid.par = list(vert = TRUE, horiz = TRUE),
+  dict = dict
 )
 dev.off()
 
@@ -208,7 +211,8 @@ coefplot(list(m1_data),
   sep = 0.25,
   style = "iplot",
   ref.line = 4,
-  grid.par = list(vert = TRUE, horiz = TRUE)
+  grid.par = list(vert = TRUE, horiz = TRUE),
+  dict = dict
 )
 dev.off()
 
@@ -220,7 +224,8 @@ coefplot(list(m2_data),
   sep = 0.25,
   style = "iplot",
   ref.line = 4,
-  grid.par = list(vert = TRUE, horiz = TRUE)
+  grid.par = list(vert = TRUE, horiz = TRUE),
+  dict = dict
 )
 dev.off()
 

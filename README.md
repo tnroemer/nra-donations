@@ -46,14 +46,14 @@ This is the replication code for the paper: Roemer, Tobias (2023): “School Sho
 
 # Dependencies
 The code used in this repo requires the following R packages:
-- main
+- 00_main
 	- tidyverse
 	- did
 	- fixest
-- maps
+- 01_maps
 	- tidyverse
 	- usmap
-- supplementary_analyses
+- 02_supplementary_analyses
 	- tidyverse
 	- did
 	- fixest
